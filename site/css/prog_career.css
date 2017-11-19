@@ -1,0 +1,12 @@
+#install {
+	animation: blink 2s alternate infinite;
+}
+
+@keyframes blink {
+	from {
+		background: #E20079;
+	}
+	to {
+		background: #222;
+	}
+}

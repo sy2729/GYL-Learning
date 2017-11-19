@@ -1,0 +1,11 @@
+.account:focus {
+    border-color: #EA0B8C;
+}
+
+.signIn:hover {
+    background: #333D47;
+}
+
+.btn {
+    transition: all 1s;
+}
