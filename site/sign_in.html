@@ -141,7 +141,7 @@
                     <div class="col-sm-4">
                         <div class="form-group">
                             <label>Username</label>
-                            <input type="text" class="form-control account">
+                            <input type="text" class="form-control account username">
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -161,13 +161,33 @@
                 </div>
                 <div class="center">
                     <div class="form-group">
-                        <button type="submit" name="submit" class="btn btn-primary btn-lg signIn" required="required">Sign In
-                        </button>
+                        <a type="button" class="btn btn-primary btn-lg signIn" href="curriculum.html">Sign In</a>
                     </div>
                 </div>
             </div>
         </div>
 
+
+
+        <div class="modal welcome" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div> -->
+                </div>
+            </div>
+        </div>
 <!--     <section id="contact-page">
         <div class="container">
             <div class="center">        
@@ -303,6 +323,12 @@
     <script src="../common/libs/js/jquery.isotope.min.js"></script>
     <script src="../common/libs/js/main.js"></script>
     <script src="../common/libs/js/wow.min.js"></script>
+     <script>
+         // $('.signIn').click(function() {
+         //    var username = document.querySelector('.username').value;
+         //    $('.welcome').modal('show');
+         // })
+     </script>
     </body>
     </html>
 
